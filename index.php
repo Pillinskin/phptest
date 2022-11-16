@@ -15,14 +15,15 @@ $numText = "";
     $numText = "Two";
     break;
   case 3:
+      $numText = "Three";
+    break;
   case 4:
-    // case 3 and 4 will go to this line
-    $numText = "Three or Four";
+    $numText = "Four";
     break;
   case 5:
     $numText = "Five";
     echo $numText;
-    // break; //without specify break or return it will continue execute to next case.
+     break;
   case 6:
     $numText = "Six";
     echo $numText;
