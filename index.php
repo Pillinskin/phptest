@@ -22,11 +22,9 @@ $numText = "";
     break;
   case 5:
     $numText = "Five";
-    echo $numText;
      break;
   case 6:
     $numText = "Six";
-    echo $numText;
     break;
   default:
     $numText = "unknown";
